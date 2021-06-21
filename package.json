@@ -5,7 +5,9 @@
 	"main": "app.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"start": "node app.js"
+		"start": "node app.js",
+		"start2": "start http://localhost:3000 & nodemon app.js ",
+		"open": "open http://localhost:3000 & nodemon app.js "
 	},
 	"repository": {
 		"type": "git",
