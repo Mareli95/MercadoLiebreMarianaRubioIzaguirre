@@ -1,0 +1,203 @@
+.contenedor__inicio-sesion {
+	background-color: rgba(128, 128, 128, 0.459);
+	border-radius: 10px;
+	margin-top: 10%;
+	margin: auto;
+	padding: 20px;
+}
+
+.contenedor-registro {
+	background-color: rgba(128, 128, 128, 0.459);
+	border-radius: 10px;
+	/* margin: auto; */
+}
+
+div.registro__titulo h3 {
+	padding-top: 10px;
+	text-align: center;
+	color: black;
+}
+
+/* div.form__registro-radio {
+	display: flex;
+	flex-direction: column;
+} */
+
+div.form__registro form {
+	display: flex;
+
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 20px;
+}
+
+div.form__registro-radio .form__titulo,
+div.datos__usuario .form__titulo,
+div.foto__usuario .form__titulo {
+	display: flex;
+	margin-bottom: 10px;
+
+	font-weight: bold;
+	justify-content: left;
+}
+
+div.datos__usuario {
+	display: flex;
+	flex-direction: column;
+}
+
+div.datos__usuario input,
+div.foto__usuario input {
+	margin-bottom: 10px;
+	box-shadow: black;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+}
+
+div.comprador-vendedor {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+div.comprador-vendedor label,
+div.categorias-interes label {
+	margin-top: 5px;
+}
+
+div.categorias-interes {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 15px;
+}
+
+div.contrasena {
+	display: flex;
+	flex-direction: column;
+}
+
+div.contrasena input {
+	margin-bottom: 10px;
+	box-shadow: black;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+}
+
+div.form__inicio-sesion {
+	display: flex;
+	justify-content: center;
+	/* /* flex-direction: column; */
+	flex-wrap: wrap;
+}
+
+div.form__inicio-sesion form {
+	display: flex;
+
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+div.form__inicio-sesion label {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+div.form__inicio-sesion input {
+	margin-bottom: 10px;
+	box-shadow: black;
+	border: none;
+	border-radius: 5px;
+	height: 40px;
+	/* width: 300px; */
+}
+
+div.perfil-usuario {
+	display: flex;
+	flex-direction: row;
+}
+
+div.contenedor__botones {
+	margin-bottom: 10px;
+}
+
+div.perfil-usuario {
+	display: flex;
+	justify-content: center;
+}
+
+div.contenedor__botones button {
+	display: flex;
+	justify-content: center;
+	margin: auto;
+	font-size: 20px;
+	margin-top: 15px;
+	border-radius: 5px;
+	border: none;
+	background-color: #8cbfcf;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+
+	/* color: white; */
+}
+
+div.contenedor__botones button:hover {
+	background-color: #0022aa;
+	color: white;
+	/* border-: solid 1px yellow; */
+}
+
+@media (min-width: 360px) {
+	div.form__inicio-sesion input {
+		margin-bottom: 10px;
+		box-shadow: black;
+		border: none;
+		border-radius: 5px;
+		height: 40px;
+		width: 250px;
+	}
+
+	div.contenedor__botones button {
+		width: 250px;
+		/* color: white; */
+	}
+}
+@media (min-width: 500px) {
+	.contenedor__inicio-sesion {
+		background-color: rgba(128, 128, 128, 0.459);
+		border-radius: 10px;
+		max-width: 400px;
+		margin: auto;
+		padding: 20px;
+		margin-top: 10%;
+	}
+
+	.contenedor-registro {
+		background-color: rgba(128, 128, 128, 0.459);
+		border-radius: 10px;
+		max-width: 400px;
+		margin: auto;
+		padding: 20px;
+		/* margin-top: 10%; */
+	}
+
+	div.form__inicio-sesion input {
+		margin-bottom: 10px;
+		box-shadow: black;
+		border: none;
+		border-radius: 5px;
+		height: 40px;
+		width: 300px;
+	}
+
+	div.contenedor__botones button {
+		width: 300px;
+		/* color: white; */
+	}
+}
